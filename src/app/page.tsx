@@ -66,16 +66,16 @@ export default function Home() {
             <div className="absolute left-0 top-full mt-2 hidden group-hover:block bg-white border border-gray-200 rounded-lg shadow-lg w-48">
               <ul className="py-2 text-sm text-gray-700">
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                  Canada
+                  Africa
                 </li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                  United Kingdom
+                  Americas
                 </li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                  United States
+                  Asia
                 </li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                  Australia
+                  Europe
                 </li>
               </ul>
             </div>
@@ -106,7 +106,7 @@ export default function Home() {
           transition={{ duration: 0.6 }}
           className="text-5xl font-extrabold mb-6"
         >
-          Scan and automate meals with <span className="text-gray-700">PlateCam</span>
+          Scan your plates of food with <span className="text-gray-700">PlateCam</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
@@ -124,7 +124,7 @@ export default function Home() {
         >
           Get the app
         </motion.a>
-        <img src="/diningcam-burger.png" alt="graphic" />
+        <img src="/retwizz.png" alt="graphic" />
       </section>
 
       {/* FAQ SECTION */}
@@ -165,19 +165,19 @@ export default function Home() {
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Products</h4>
+            <h4 className="font-semibold mb-4">Regions</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>API</li>
-              <li>AI</li>
-              <li>Mobile Apps</li>
-              <li>Integrations</li>
+              <li>Africa</li>
+              <li>Americas</li>
+              <li>Asia</li>
+              <li>Europe</li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Support</h4>
             <ul className="space-y-2 text-gray-400">
               <li>Contact Center</li>
-              <li>Affiliates</li>
+              <li>Promotion</li>
               <li>Status</li>
               <li>Developers</li>
             </ul>
