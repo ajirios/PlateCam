@@ -10,11 +10,15 @@ export default function Home() {
   const faqs = [
     {
       q: "What is PlateCam?",
-      a: "PlateCam is a camera-first calorie-based meal planning app that scans and recommends meals so you don't have to.",
+      a: "PlateCam is an AI-driven app that uses your smartphone camera to track your metabolism.",
     },
     {
       q: "How much does it cost?",
-      a: "Pricing starts at $9.99 per month or $79.99 per year.",
+      a: "Pricing starts at $9.99 per month or $79.99 annually.",
+    },
+    {
+      q: "Can I try it for free?",
+      a: "There is a 3-day free trial with the yearly plan.",
     },
     {
       q: "What foods are available?",
@@ -114,7 +118,7 @@ export default function Home() {
           transition={{ delay: 0.3, duration: 0.6 }}
           className="text-lg text-gray-600 mb-8"
         >
-          Meet PlateCam, the AI-powered camera-first calorie-based meal planning app built for all ages. Snap a photo, scan a barcode, or describe your meal and get instant calorie and nutrient info. Discover over 1 million dishes – including traditional meals around the world.
+          Meet PlateCam, the AI-driven app that uses your smartphone camera to track your metabolism. Snap a photo, scan a barcode, or describe your meal and get instant calorie and nutrient info. Discover over 1 million dishes – including traditional meals around the world.
         </motion.p>
         <motion.a
           href="/signup"
