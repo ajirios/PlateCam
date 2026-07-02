@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "PlateCam",
-  description: "PlateCam is an AI-driven app that uses your smartphone camera to track your metabolism.",
+  description: "PlateCam is an AI-driven app that uses your smartphone camera to track your full nutrition over time.",
+  icons: {
+    icon: "/platecam_gemini.png",
+  },
 };
 
 export default function RootLayout({

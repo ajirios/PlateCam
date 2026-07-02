@@ -19,6 +19,26 @@
   }
 }
 
+.icon {
+  height: 36px;
+}
+
+.icon_wrapper {
+  float: left;
+  height: 45px;
+  width: 200px;
+}
+
+.icon_text {
+  width: 140px;
+  font-style: normal;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000000;
+}
+
+.screenshot_camera {
+  width: 300px;
+}
 
 body {
   background: var(--background);
