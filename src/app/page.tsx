@@ -84,6 +84,9 @@ export default function Home() {
         Nederlands
       </li>
       <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+        Russian
+      </li>
+      <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
         Bahasa Indonesian
       </li>
       <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">

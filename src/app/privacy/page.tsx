@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
             PlateCam Privacy Policy
           </h1>
           <p className="text-sm text-gray-500">
-            Last Updated: June 19, 2026
+            Last Updated: July 11, 2026
           </p>
         </header>
 
@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
         <div className="bg-white shadow-sm rounded-lg border border-gray-200 p-8 space-y-6 text-base leading-relaxed text-justify">
           
           <p>
-            PlateCam (the &quot;Company&quot;) is committed to maintaining robust privacy protections for its users. Our Privacy Policy (&quot;Privacy Policy&quot;) is designed to help you understand how we collect, use and safeguard the information you provide to us and to assist you in making informed decisions when using our Service.
+            PlateCam Inc. (the &quot;Company&quot;) is committed to maintaining robust privacy protections for its users. Our Privacy Policy (&quot;Privacy Policy&quot;) is designed to help you understand how we collect, use and safeguard the information you provide to us and to assist you in making informed decisions when using our Service.
           </p>
 
           <p>
@@ -57,6 +57,457 @@ export default function PrivacyPolicy() {
             We collect &quot;Non-Personal Information&quot; and &quot;Personal Information.&quot; Non-Personal Information includes information that cannot be used to personally identify you, such as anonymous usage data, general demographic information we may collect, referring/exit pages and URLs, platform types, preferences you submit and preferences that are generated based on the data you submit and number of clicks. Personal Information includes your email address, which you submit to us through the registration process at the Site. If you sign up using Google OAuth, we also receive your Google profile name and profile picture. If you submit a contact or feature request form, we may also collect your email address and the content of your submission, which you submit to us through the registration process at the Site.
           </p>
 
+
+        <p>
+          PlateCam collects information in several different ways depending on
+          how you interact with the application. Some information is provided
+          directly by you, some is generated while you use the app, and some is
+          received from trusted service providers that help us operate our
+          platform.
+        </p>
+
+        <p>
+          We only collect information that is necessary to provide, maintain,
+          personalize, secure, and improve PlateCam's features.
+        </p>
+
+        <h2 className='font-semibold'>Account Information</h2>
+
+        <p>
+          You may create a PlateCam account using Sign in with Apple or Sign in
+          with Google. Authentication is securely managed through Supabase
+          Authentication.
+        </p>
+
+        <p>
+          Depending on the authentication provider you choose, we may collect:
+        </p>
+
+        <ul>
+          <li>Name</li>
+          <li>Email address</li>
+          <li>Unique account identifier</li>
+          <li>User handle or display name</li>
+          <li>Authentication provider information</li>
+        </ul>
+
+        <p>
+          This information allows us to:
+        </p>
+
+        <ul>
+          <li>Create your PlateCam account</li>
+          <li>Authenticate future sign-ins</li>
+          <li>Synchronize your data across multiple devices</li>
+          <li>Maintain your personalized nutrition history</li>
+          <li>Provide customer support</li>
+          <li>Protect your account against unauthorized access</li>
+        </ul>
+
+        <p>
+          PlateCam does not collect or store your passwords for Apple or Google
+          accounts. Authentication credentials remain under the control of the
+          authentication provider you choose.
+        </p>
+
+        <hr />
+
+        <h2 className='font-semibold'>Profile Information</h2>
+
+        <p>
+          Your PlateCam profile may include information that you voluntarily
+          provide in order to personalize your nutrition experience.
+        </p>
+
+        <p>
+          This may include:
+        </p>
+
+        <ul>
+          <li>Date of birth</li>
+          <li>Sex or gender</li>
+          <li>Height</li>
+          <li>Weight</li>
+          <li>Activity level</li>
+          <li>Country of residence</li>
+          <li>Country of origin</li>
+          <li>Dietary preferences</li>
+          <li>Dietary restrictions</li>
+          <li>Food allergies</li>
+          <li>Nutrition goals</li>
+          <li>Weight goals</li>
+          <li>Muscle gain goals</li>
+          <li>Meal preferences</li>
+        </ul>
+
+        <p>
+          We use this information to calculate individualized nutritional
+          targets, personalize food recommendations, estimate nutrient needs,
+          and provide more relevant dietary insights.
+        </p>
+
+        <hr />
+
+        <h2 className='font-semibold'>Health & Sensitive Information</h2>
+
+        <p>
+          PlateCam allows users to voluntarily provide certain health-related
+          information in order to generate highly personalized nutritional
+          guidance. Providing this information is optional unless a particular
+          feature requires it to function.
+        </p>
+
+        <p>
+          Depending on how you use PlateCam, you may choose to provide
+          information relating to:
+        </p>
+
+        <ul>
+          <li>General wellness goals</li>
+          <li>Weight management objectives</li>
+          <li>Muscle growth goals</li>
+          <li>Heart health objectives</li>
+          <li>Blood sugar management goals</li>
+          <li>Cholesterol management goals</li>
+          <li>Sleep quality goals</li>
+          <li>Digestive health</li>
+          <li>Joint health</li>
+          <li>Kidney health</li>
+          <li>Liver health</li>
+          <li>Brain health and cognitive wellness</li>
+          <li>Eye health</li>
+          <li>Skin health</li>
+          <li>Immune health</li>
+          <li>Physical symptoms you voluntarily report</li>
+          <li>Lifestyle habits</li>
+          <li>Dietary habits</li>
+        </ul>
+
+        <p>
+          During onboarding, PlateCam may also ask you optional questions about
+          self-reported health conditions, symptoms, wellness concerns,
+          environmental factors, and dietary habits. Your responses help
+          generate personalized nutrient targets, dietary recommendations, and
+          wellness insights that are tailored to your stated goals.
+        </p>
+
+        <p>
+          Some onboarding questions request your ethnicity. We use this
+          information solely to improve the personalization of nutritional
+          recommendations, including estimating nutrient requirements that may
+          vary across populations, such as vitamin D recommendations. We do not
+          use ethnicity for advertising profiling or sell this information to
+          third parties.
+        </p>
+
+        <p>
+          PlateCam does not use the information you provide to diagnose,
+          prevent, treat, or cure any disease. Any nutritional guidance,
+          wellness scores, organ impact estimates, or other insights generated
+          by PlateCam are intended solely for informational and educational
+          purposes and should not be considered medical advice or a substitute
+          for consultation with qualified healthcare professionals.
+        </p>
+
+        <p>
+          We encourage users to consult a physician or other qualified
+          healthcare provider before making significant dietary or health
+          decisions, particularly if they have an existing medical condition,
+          are pregnant, or are taking medications that may affect nutritional
+          requirements.
+        </p>
+        <hr />
+
+<h2 className='font-semibold'>Food Photos and Videos</h2>
+
+<p>
+  PlateCam is designed to analyze foods that you choose to photograph
+  or record. You may use the camera within the app to capture food
+  images or record short food videos, or upload existing food photos
+  from your device's photo library.
+</p>
+
+<p>
+  Any photos or videos you submit are used to perform nutritional
+  analysis, estimate nutrient composition, generate wellness insights,
+  and maintain your personal food history within the app.
+</p>
+
+<p>
+  You remain in control of the media you submit. PlateCam only analyzes
+  photos and videos that you intentionally choose to capture or upload.
+  We do not continuously access your camera or photo library.
+</p>
+
+<p>
+  Depending on your device permissions, PlateCam may request access to:
+</p>
+
+<ul>
+  <li>Your camera to capture food photos and videos.</li>
+  <li>Your photo library to upload existing food images.</li>
+  <li>Your microphone when recording food videos.</li>
+</ul>
+
+<p>
+  These permissions may be revoked at any time through your device's
+  system settings.
+</p>
+
+<hr />
+
+<h2 className='font-semibold'>Artificial Intelligence Processing</h2>
+
+<p>
+  Artificial intelligence is a core component of PlateCam.
+</p>
+
+<p>
+  When you choose to analyze a food photo or video, PlateCam securely
+  processes your submission in order to estimate nutritional
+  information and generate personalized wellness insights.
+</p>
+
+<p>
+  The general processing workflow is as follows:
+</p>
+
+<ol>
+  <li>You intentionally capture or upload a food image.</li>
+  <li>The image is securely transmitted to PlateCam's servers.</li>
+  <li>
+    PlateCam submits the image to trusted artificial intelligence
+    services for food recognition and nutritional analysis.
+  </li>
+  <li>
+    AI-generated nutritional estimates are returned to PlateCam.
+  </li>
+  <li>
+    PlateCam combines those estimates with your personalized nutrient
+    targets, dietary goals, and profile information to generate your
+    dashboard, reports, and wellness insights.
+  </li>
+</ol>
+
+<p>
+  AI-generated results are estimates based on image recognition,
+  nutritional databases, and predictive models. They are not guaranteed
+  to be perfectly accurate and should not be interpreted as medical
+  diagnoses or laboratory measurements.
+</p>
+
+<hr />
+
+<h2 className='font-semibold'>Food Recognition and Nutritional Analysis</h2>
+
+<p>
+  PlateCam uses artificial intelligence to identify foods appearing in
+  submitted images and estimate their nutritional composition.
+</p>
+
+<p>
+  Depending on the food being analyzed, PlateCam may estimate:
+</p>
+
+<ul>
+  <li>Calories</li>
+  <li>Macronutrients</li>
+  <li>Vitamins</li>
+  <li>Minerals</li>
+  <li>Essential fatty acids</li>
+  <li>Amino acids</li>
+  <li>Dietary fiber</li>
+  <li>Bioactive compounds</li>
+  <li>Food allergens</li>
+  <li>Additional naturally occurring food constituents</li>
+</ul>
+
+<p>
+  PlateCam has a nutrition suite, which can only be accessed via subscription. This nutrition suite contains all estimatable food constituents. PlateCam currently estimates approximately 220 nutrients, allergens,
+  bioactive compounds, and related nutritional components from foods
+  recognized in submitted images.
+</p>
+
+<p>
+  These estimates are used to calculate your daily nutrient intake,
+  compare consumption against your personalized nutrient targets, and
+  generate nutrition reports throughout the application.
+</p>
+
+<hr />
+
+<h2 className='font-semibold'>Organ Impact Estimation</h2>
+
+<p>
+  In addition to estimating nutrient composition, PlateCam generates
+  educational wellness insights describing how the nutritional
+  composition of foods may influence different body systems over time.
+</p>
+
+<p>
+  Depending on the available nutritional information, PlateCam may
+  generate estimated wellness insights relating to areas such as:
+</p>
+
+<ul>
+  <li>Heart</li>
+  <li>Blood vessels</li>
+  <li>Blood</li>
+  <li>Brain</li>
+  <li>Eyes</li>
+  <li>Skin</li>
+  <li>Muscles</li>
+  <li>Bones</li>
+  <li>Joints</li>
+  <li>Nerves</li>
+  <li>Lungs</li>
+  <li>Liver</li>
+  <li>Kidneys</li>
+  <li>Stomach</li>
+  <li>Intestines</li>
+  <li>Abdominal and waist wellness</li>
+</ul>
+
+<p>
+  These wellness indicators are generated using PlateCam's nutritional
+  analysis models together with the nutritional composition estimated
+  from your submitted food images.
+</p>
+
+<p>
+  Organ impact estimates are educational tools intended to help users
+  better understand how dietary choices may contribute to overall
+  wellness. They are not intended to diagnose disease, evaluate organ
+  function, or replace professional medical advice.
+</p>
+
+<hr />
+
+<h2 className='font-semibold'>Personalized Nutrient Targets</h2>
+
+<p>
+  PlateCam uses your onboarding information together with your ongoing
+  food analyses to calculate individualized daily nutrient targets.
+</p>
+
+<p>
+  Your personalized targets may consider information such as:
+</p>
+
+<ul>
+  <li>Age</li>
+  <li>Sex or gender</li>
+  <li>Height</li>
+  <li>Weight</li>
+  <li>Activity level</li>
+  <li>Body composition goals</li>
+  <li>Dietary restrictions</li>
+  <li>Food allergies</li>
+  <li>Wellness objectives</li>
+  <li>Self-reported health information</li>
+</ul>
+
+<p>
+  PlateCam currently calculates targets across more than 220 nutrients,
+  food compounds, and nutritional measurements. These targets are used
+  to personalize dashboards, reports, progress indicators, and food
+  recommendations throughout the application.
+</p>
+
+<hr />
+
+<h2 className='font-semibold'>Meal History and Nutrition Dashboard</h2>
+
+<p>
+  PlateCam stores your analyzed meals within your account so that you
+  can review your nutritional history over time.
+</p>
+
+<p>
+  Your dashboard may include:
+</p>
+
+<ul>
+  <li>Daily meal history.</li>
+  <li>Previously analyzed food photos.</li>
+  <li>Previously recorded food videos.</li>
+  <li>Nutrient intake summaries.</li>
+  <li>Daily nutrient progress.</li>
+  <li>Historical trends.</li>
+  <li>Personalized wellness indicators.</li>
+  <li>Progress toward nutritional goals.</li>
+</ul>
+
+<p>
+  You may browse your meal history by selecting previous calendar dates
+  within the application. PlateCam uses this information to provide
+  historical reporting and help you monitor long-term dietary trends.
+</p>
+
+<hr />
+
+<h2 className='font-semibold'>Reports and Progress Tracking</h2>
+
+<p>
+  PlateCam generates reports that summarize nutritional intake over
+  time. Depending on your usage, reports may include nutrient trends,
+  estimated wellness indicators, historical progress, and educational
+  information describing the nutritional significance of your dietary
+  habits.
+</p>
+
+<p>
+  These reports are personalized using information from your onboarding
+  responses, your analyzed meals, your nutritional targets, and your
+  historical activity within PlateCam.
+</p>
+
+<p>
+  Reports are generated solely for your personal use and are accessible
+  only through your authenticated PlateCam account unless you choose to
+  share information outside the app.
+</p>
+
+          <p className="lead text-lg text-slate-600 mb-6">
+          This Privacy Policy describes how PlateCam ("we", "our", or "us") collects, 
+          uses, and protects your information. Our disclosures strictly align with the privacy 
+          standards mandated by Apple's App Store.
+        </p>
+
+        {/* Health Data Section */}
+        <section className="mt-8">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">
+            1. Health & Fitness Data
+          </h2>
+          <p className="mb-4">
+            PlateCam collects nutritional and health metrics purely to serve your goals. 
+            Per our submissions to App Store Connect, here is exactly how that data behaves:
+          </p>
+
+          <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 my-6">
+            <h3 className="font-semibold text-slate-900 mb-2">Declared Uses:</h3>
+            <ul className="list-disc pl-5 space-y-2 text-slate-700">
+              <li><strong>App Functionality:</strong> Processing food images and logging nutrition analytics seamlessly.</li>
+              <li><strong>Analytics:</strong> Aggregating usage statistics to iterate on feature performance.</li>
+              <li><strong>Product Personalization:</strong> Adapting contextually to provide a tailored user interface experience.</li>
+            </ul>
+          </div>
+
+          <h3 className="text-xl font-semibold text-slate-900 mt-6 mb-2">
+            Identity Separation & Tracking Restrictions
+          </h3>
+          <ul className="list-disc pl-5 space-y-2 text-slate-700">
+            <li>
+              <strong>Data Not Linked to You:</strong> Any health, macro, or nutritional data 
+              collected by this app is intentionally detached from direct identifiers before storage.
+            </li>
+            <li>
+              <strong>No Tracking:</strong> We do not match or package your information with third-party 
+              SDKs or ad data brokers to monetize your profile or retarget you on other services.
+            </li>
+          </ul>
+        </section>
+
           <h3 className="text-lg font-semibold text-gray-900 mt-4">1. Information collected via Technology</h3>
           <p>
             To activate the Service you do not need to submit any Personal Information other than your email address. To use the Service thereafter, you do not need to submit further Personal Information other than your email address. However, you may optionally provide a username and profile picture through your account settings, and you may submit hardware preferences (such as camera and shutter model names), system and location search queries, and equipment configurations in connection with using the Service. However, in an effort to improve the quality of the Service, we track information provided to us by your browser or by our software application when you view or use the Service, such as the website you came from (known as the &quot;referring URL&quot;), the type of browser you use, the device from which you connected to the Service, the time and date of access, and other information that does not personally identify you. On the Site, we track this information using cookies, or small text files which include an anonymous unique identifier. Cookies are sent to a user&apos;s browser from our servers and are stored on the user&apos;s computer hard drive. On the App, we use local device storage and secure Keychain storage for authentication tokens and user preferences instead of cookies. Sending a cookie to a user&apos;s browser (or storing equivalent data on a mobile device) enables us to collect Non-Personal information about that user and keep a record of the user&apos;s preferences when utilizing our services, both on an individual and aggregate basis. For example, the Company may use cookies and local device storage to collect the following information:
@@ -79,7 +530,7 @@ export default function PrivacyPolicy() {
 
           <h3 className="text-lg font-semibold text-gray-900 mt-4">3. Advertising and Attribution Information (iOS App)</h3>
           <p>
-            When you use the iOS App, we use the TikTok Business SDK and the Meta (Facebook) Business SDK to measure the effectiveness of our advertising campaigns and improve our marketing. With your consent (provided through Apple&apos;s App Tracking Transparency permission prompt), we may collect and share the following information with TikTok and Meta for advertising attribution and analytics purposes:
+            When you use the iOS App, we use the TikTok Business SDK to measure the effectiveness of our advertising campaigns and improve our marketing. With your consent (provided through Apple&apos;s App Tracking Transparency permission prompt), we may collect and share the following information with TikTok for advertising attribution and analytics purposes:
           </p>
           <ul className="list-disc pl-6 space-y-1">
             <li>Apple&apos;s Identifier for Advertisers (IDFA), only if you grant tracking permission</li>
@@ -88,16 +539,29 @@ export default function PrivacyPolicy() {
             <li>App event data, including app installs, app launches, sign-ups, paywall views, in-app activity, and subscription purchases (including price and currency)</li>
           </ul>
           <p>
-            If you decline the App Tracking Transparency prompt, we do not collect or share your IDFA. App event data may still be sent to TikTok and Meta without an IDFA to support privacy-preserving attribution via Apple&apos;s SKAdNetwork framework and Meta&apos;s Aggregated Event Measurement (AEM). You can change your tracking preference at any time in your device&apos;s Settings under Privacy &amp; Security → Tracking.
+            If you decline the App Tracking Transparency prompt, we do not collect or share your IDFA. App event data may still be sent to TikTok without an IDFA to support privacy-preserving attribution via Apple&apos;s SKAdNetwork framework. You can change your tracking preference at any time in your device&apos;s Settings.
           </p>
           <p>
-            TikTok&apos;s use of this information is governed by TikTok&apos;s Privacy Policy. Meta&apos;s use of this information is governed by Meta&apos;s Privacy Policy.
+            TikTok&apos;s use of this information is governed by TikTok&apos;s Privacy Policy.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-4">4. Children&apos;s Privacy</h3>
           <p>
             The Site and the Service are not directed to anyone under the age of 13. The Site does not knowingly collect or solicit information from anyone under the age of 13, or allow anyone under the age of 13 to sign up for the Service. In the event that we learn that we have gathered personal information from anyone under the age of 13 without the consent of a parent or guardian, we will delete that information as soon as possible. If you believe we have collected such information, please contact us at <a href="mailto:contact@platecam.com" className="text-blue-600 hover:underline">contact@platecam.com</a>.
           </p>
+
+        <p>
+          PlateCam is not directed toward children under the age at which they
+          can lawfully consent to the processing of their personal information
+          in their jurisdiction. We do not knowingly collect personal
+          information from children without any legally required consent.
+        </p>
+
+        <p>
+          If you believe a child has provided personal information through
+          PlateCam inappropriately, please contact us so we can investigate and
+          take appropriate action.
+        </p>
 
           <hr className="border-gray-200 my-6" />
 
@@ -119,27 +583,300 @@ export default function PrivacyPolicy() {
           <p>
             In the event we undergo a business transaction such as a merger, acquisition by another company, or sale of all or a portion of our assets, your Personal Information may be among the assets transferred. You acknowledge and consent that such transfers may occur and are permitted by this Privacy Policy, and that any acquirer of our assets may continue to process your Personal Information as set forth in this Privacy Policy. If our information practices change at any time in the future, we will post the policy changes to the Site so that you may opt out of the new information practices. We suggest that you check the Site periodically if you are concerned about how your information is used.
           </p>
+          <hr />
+
+<h2 className='font-semibold'>Sharing Content</h2>
+
+<p>
+  PlateCam allows you to voluntarily share food photos and videos using
+  your device's built-in sharing features.
+</p>
+
+<p>
+  When you choose to share content, the selected photo or video is
+  transferred directly through your device's operating system to the
+  destination you choose, such as a messaging application or social
+  media platform.
+</p>
+
+<p>
+  PlateCam does not control how third-party applications collect, use,
+  or store information after you choose to share content with them.
+  Their handling of your information is governed by their respective
+  privacy policies.
+</p>
 
           <hr className="border-gray-200 my-6" />
 
           <h2 className="text-xl font-bold text-gray-900 pt-2">III. Third-Party Service Providers</h2>
-          <p>
-            We use the following third-party service providers to operate and improve our Service. These providers may have access to your Personal Information only to perform specific tasks on our behalf and are obligated not to disclose or use it for any other purpose:
-          </p>
+          
+
+
+<p>
+  PlateCam works with carefully selected third-party service providers
+  that help us securely operate, maintain, and improve our services.
+  These providers process information only as necessary to perform the
+  services they provide to PlateCam and are contractually or legally
+  obligated to safeguard applicable data.
+</p>
+
+<p>
+  The third-party services we use may change over time as our platform
+  evolves. We will update this Privacy Policy when material changes are
+  made to the categories of providers that process your information.
+</p>
           <ul className="list-disc pl-6 space-y-2">
             <li><strong>Supabase</strong> — Database hosting, user authentication, and data storage.</li>
             <li><strong>OpenAI</strong> — Image configuration research and precise gear adaptation processing. System queries and equipment information you provide are sent to OpenAI to generate optimal recognition recommendations.</li>
-            <li><strong>Mailgun</strong> — Transactional and marketing email delivery.</li>
+            
             <li><strong>Netlify</strong> — Website hosting, deployment, and analytics.</li>
             <li><strong>Render.com</strong> — Server hosting, deployment, and analytics.</li>
             <li><strong>Apple</strong> — App distribution via the App Store. If you download or use the App, Apple may collect certain information in accordance with Apple&apos;s Privacy Policy.</li>
             <li><strong>RevenueCat</strong> — In-app subscription management, entitlement validation, and receipt processing for the iOS App.</li>
-            <li><strong>Superwall</strong> — Paywall presentation and in-app subscription experience management for the iOS App.</li>
+            <li><strong>Replit</strong> — Some server hosting and deployment services.</li>
             <li><strong>TikTok Business SDK</strong> — Mobile app analytics, advertising attribution, and conversion measurement for the iOS App. We share hashed user identifiers, hashed email addresses, the Identifier for Advertisers (with your consent via App Tracking Transparency), and app event data (including subscription purchases) with TikTok to measure the performance of advertising campaigns and to inform ad targeting and lookalike audiences. See Section I.3 above for additional details.</li>
           </ul>
           <p>
             We encourage you to review each provider&apos;s respective privacy policy to understand how they handle your information.
           </p>
+
+<hr />
+
+<h2 className='font-semibold'>Supabase Authentication and Database Services</h2>
+
+<p>
+  PlateCam uses Supabase to provide secure user authentication and
+  cloud-hosted database services.
+</p>
+
+<p>
+  Supabase helps us:
+</p>
+
+<ul>
+  <li>Authenticate users through Sign in with Apple.</li>
+  <li>Authenticate users through Sign in with Google.</li>
+  <li>Maintain user accounts.</li>
+  <li>Synchronize information across multiple devices.</li>
+  <li>Securely store user-generated application data.</li>
+</ul>
+
+<p>
+  Depending on how you use PlateCam, information stored through
+  Supabase may include your account identifier, display name, email
+  address, profile information, onboarding responses, nutritional
+  targets, meal history, food analyses, wellness reports, and other
+  information required to provide the features of the application.
+</p>
+
+<p>
+  PlateCam uses authenticated access controls to help ensure users can
+  access only information associated with their own accounts.
+</p>
+
+<hr />
+
+<h2 className='font-semibold'>OpenAI Services</h2>
+
+<p>
+  PlateCam uses OpenAI services to perform AI-powered food recognition,
+  nutritional estimation, and wellness insight generation.
+</p>
+
+<p>
+  When you request a food analysis, your submitted image is securely
+  transmitted through PlateCam's servers to OpenAI for processing. The
+  request is made from PlateCam's secure backend infrastructure using
+  server-side credentials. OpenAI API credentials are not embedded
+  within the PlateCam mobile application.
+</p>
+
+<p>
+  AI-generated responses are returned to PlateCam, where they are
+  combined with your personalized nutritional targets and profile
+  information to generate dashboards, reports, nutrient estimates, and
+  educational wellness insights.
+</p>
+
+<p>
+  PlateCam does not authorize OpenAI to access your account beyond what
+  is necessary to process your submitted analysis request.
+</p>
+
+<hr />
+
+<h2 className='font-semibold'>Application Hosting Infrastructure</h2>
+
+<p>
+  PlateCam's backend services are hosted using Render.
+</p>
+
+<p>
+  Render provides the secure infrastructure that processes requests
+  between the PlateCam mobile application, artificial intelligence
+  services, and supporting application components.
+</p>
+
+<p>
+  Our backend infrastructure is responsible for securely handling
+  requests, coordinating AI analysis, protecting application secrets,
+  and returning processed results to your device.
+</p>
+
+<hr />
+
+<h2 className='font-semibold'>Subscription Management</h2>
+
+<p>
+  PlateCam offers optional premium subscription services that are
+  purchased through the Apple App Store or Google Play.
+</p>
+
+<p>
+  Subscription status and customer entitlements are managed using
+  RevenueCat.
+</p>
+
+<p>
+  RevenueCat helps PlateCam determine whether your account has an
+  active subscription so premium features can be unlocked across your
+  devices.
+</p>
+
+<p>
+  PlateCam does not receive or store your payment card number, banking
+  information, or other financial payment credentials. Payments are
+  securely processed by Apple or Google using the payment methods
+  associated with your platform account.
+</p>
+
+<p>
+  Subscription billing, refunds, payment disputes, and payment method
+  management are handled by the applicable app marketplace.
+</p>
+
+<hr />
+
+<h2 className='font-semibold'>Apple and Google Services</h2>
+
+<p>
+  Depending on your device and the features you use, PlateCam may
+  integrate with services provided by Apple or Google, including:
+</p>
+
+<ul>
+  <li>Sign in with Apple.</li>
+  <li>Sign in with Google.</li>
+  <li>Apple App Store purchases.</li>
+  <li>Google Play purchases.</li>
+  <li>Push notification delivery.</li>
+</ul>
+
+<p>
+  Your use of Apple or Google services is governed by their respective
+  privacy policies and terms of service.
+</p>
+
+<hr />
+
+<h2 className='font-semibold'>Notifications</h2>
+
+<p>
+  If you grant permission, PlateCam may send notifications to your
+  device to help you stay informed about your nutritional goals and
+  activity within the application.
+</p>
+
+<p>
+  Notifications may include reminders regarding:
+</p>
+
+<ul>
+  <li>Nutrient targets that have not yet been met.</li>
+  <li>Nutrients that may have exceeded personalized limits.</li>
+  <li>General activity reminders.</li>
+  <li>Important account or service announcements.</li>
+</ul>
+
+<p>
+  You may disable notifications at any time through your device's
+  operating system settings.
+</p>
+
+<hr />
+
+<h2 className='font-semibold'>Diagnostics and Performance Information</h2>
+
+<p>
+  To improve the stability, security, and performance of PlateCam, we
+  may collect diagnostic information relating to application crashes,
+  software errors, loading times, feature performance, and other
+  technical metrics.
+</p>
+
+<p>
+  Diagnostic information helps us investigate problems, improve
+  reliability, optimize performance, and enhance the overall user
+  experience.
+</p>
+
+<p>
+  Consistent with our App Store privacy disclosures, diagnostic data is
+  not used for cross-app tracking or third-party advertising.
+</p>
+
+<hr />
+
+<h2 className='font-semibold'>Usage Analytics</h2>
+
+<p>
+  PlateCam collects information about how users interact with the
+  application to understand feature usage, improve usability, develop
+  new functionality, and enhance the overall user experience.
+</p>
+
+<p>
+  Usage information may include interactions with features, navigation
+  patterns, application performance metrics, and aggregated statistics
+  describing how PlateCam is used.
+</p>
+
+<p>
+  Where practical, we use aggregated or de-identified information for
+  analytical purposes.
+</p>
+
+<hr />
+
+<h2 className='font-semibold'>Marketing and Communications</h2>
+
+<p>
+  PlateCam may use your email address to send important service-related
+  communications, including account notifications, security alerts,
+  updates to this Privacy Policy, and information about your
+  subscription.
+</p>
+
+<p>
+  If you choose to receive marketing communications, we may also send
+  information about new features, educational nutrition content,
+  promotions, and product updates. You may unsubscribe from marketing
+  emails at any time by following the instructions included in those
+  communications.
+</p>
+
+<p>
+  PlateCam may advertise its services through third-party platforms,
+  such as social media and video-sharing services. These advertising
+  activities are intended to promote PlateCam and measure the
+  effectiveness of our marketing campaigns.
+</p>
+
+<p>
+  PlateCam does not sell your health information to advertisers, nor do
+  we permit advertising partners to use health-related information you
+  provide within PlateCam to build advertising profiles about you.
+</p>
 
           <hr className="border-gray-200 my-6" />
 
@@ -147,6 +884,199 @@ export default function PrivacyPolicy() {
           <p>
             We implement security measures designed to protect your information from unauthorized access. Your account is protected by your account password and we urge you to take steps to keep your personal information safe by not disclosing your password and by logging out of your account after each use. We further protect your information from potential security breaches by implementing certain technological security measures including encryption, firewalls and secure socket layer technology. However, these measures do not guarantee that your information will not be accessed, disclosed, altered or destroyed by breach of such firewalls and secure server software. By using our Service, you acknowledge that you understand and agree to assume these risks.
           </p>
+
+
+<p>
+  We use the information we collect to:
+</p>
+
+<ul>
+  <li>Provide and maintain PlateCam's services.</li>
+  <li>Authenticate and secure user accounts.</li>
+  <li>Generate personalized nutritional targets.</li>
+  <li>Analyze food photos and videos.</li>
+  <li>Produce AI-generated nutrient estimates and wellness insights.</li>
+  <li>Maintain meal history and nutritional reports.</li>
+  <li>Deliver notifications you request or enable.</li>
+  <li>Process subscriptions and premium feature access.</li>
+  <li>Respond to customer support requests.</li>
+  <li>Improve application performance and reliability.</li>
+  <li>Develop new features and services.</li>
+  <li>Comply with applicable laws and legal obligations.</li>
+  <li>Protect the security and integrity of PlateCam.</li>
+</ul>
+<hr />
+
+        <h2 className='font-semibold'>Data Retention</h2>
+
+        <p>
+          PlateCam retains your information for as long as your account remains
+          active so that you can continue to access your personalized nutrition
+          history, historical meal analyses, dashboard insights, yearly
+          progress, nutrient trends, and other features that rely upon your
+          historical records.
+        </p>
+
+        <p>
+          Depending on how you use PlateCam, retained information may include:
+        </p>
+
+        <ul>
+          <li>Your account profile.</li>
+          <li>Your onboarding responses.</li>
+          <li>Your personalized nutrient targets.</li>
+          <li>Your analyzed food photos and videos.</li>
+          <li>Your meal history.</li>
+          <li>Your nutritional analyses.</li>
+          <li>Your wellness reports.</li>
+          <li>Your dashboard history.</li>
+          <li>Your yearly and historical nutrition trends.</li>
+        </ul>
+
+        <p>
+          Retaining this information allows PlateCam to provide historical
+          reporting, calendar-based meal browsing, longitudinal nutrient
+          tracking, and personalized recommendations that improve over time.
+        </p>
+
+        
+
+        <h2 className='font-semibold'>Deleting Your Account</h2>
+
+        <p>
+          You may permanently delete your PlateCam account at any time from
+          within the mobile application.
+        </p>
+
+        <p>
+          To request deletion, navigate to:
+        </p>
+
+        <p>
+          <strong>Settings &gt; Account &gt; Close Account</strong>
+        </p>
+
+        <p>
+          If your PlateCam account is associated with an active subscription,
+          PlateCam will first determine your subscription status and display
+          your current paid-through date before proceeding with account
+          deletion.
+        </p>
+
+        <p>
+          If you choose to continue, PlateCam will clearly inform you that:
+        </p>
+
+        <ul>
+          <li>Your account will be permanently deleted.</li>
+          <li>Your meal history will be removed.</li>
+          <li>Your personalized nutrient targets will be removed.</li>
+          <li>Your uploaded food photos and videos will be removed.</li>
+          <li>Your nutrition reports and historical progress will be removed.</li>
+          <li>Your remaining subscription time will be forfeited.</li>
+          <li>No refund will be issued solely because your account is deleted.</li>
+        </ul>
+
+        <p>
+          Before deletion occurs, PlateCam requires an additional confirmation
+          to help prevent accidental account removal.
+        </p>
+
+        <p>
+          Once deletion has been confirmed, PlateCam initiates a secure account
+          deletion process that removes your active account information,
+          including your authentication record, profile information,
+          application data, meal history, nutritional analyses, personalized
+          nutrient targets, and media stored by PlateCam that are associated
+          with your account.
+        </p>
+
+        <p>
+          After your account has been deleted, you will be signed out of the
+          application and returned to the onboarding experience. Deleted
+          accounts cannot be restored.
+        </p>
+
+        <p>
+          Limited copies of certain information may remain temporarily within
+          encrypted backups or disaster recovery systems until those backups
+          expire or are overwritten in accordance with our service providers'
+          retention practices. Such backup copies are not used for normal
+          application operations.
+        </p>
+
+        
+
+        <h2 className='font-semibold'>Managing Your Subscription</h2>
+
+        <p>
+          Deleting your PlateCam account is separate from cancelling your
+          subscription.
+        </p>
+
+        <p>
+          If you wish to stop future subscription renewals while keeping your
+          PlateCam account and historical data, you may manage your subscription
+          through the subscription management tools provided by Apple or Google,
+          depending on the platform through which your subscription was
+          purchased.
+        </p>
+
+        <p>
+          PlateCam also provides a shortcut to your subscription management
+          settings within the application.
+        </p>
+
+        
+
+        <h2 className='font-semibold'>Security</h2>
+
+        <p>
+          Protecting your information is one of our highest priorities.
+        </p>
+
+        <p>
+          PlateCam uses administrative, technical, and organizational measures
+          designed to help protect personal information against unauthorized
+          access, disclosure, alteration, or destruction.
+        </p>
+
+        <p>
+          These measures include, where appropriate:
+        </p>
+
+        <ul>
+          <li>Authenticated user accounts.</li>
+          <li>Secure communication using encrypted connections.</li>
+          <li>Protected backend infrastructure.</li>
+          <li>Server-side management of confidential API credentials.</li>
+          <li>Role-based access controls.</li>
+          <li>Monitoring and maintenance of production services.</li>
+        </ul>
+
+        <p>
+          Although we work diligently to safeguard your information, no method
+          of electronic storage or transmission over the Internet can be
+          guaranteed to be completely secure. We therefore cannot guarantee
+          absolute security.
+        </p>
+
+        
+
+        <h2 className='font-semibold'>International Data Processing</h2>
+
+        <p>
+          PlateCam is operated by PlateCam Inc. in Canada. Depending on where
+          you reside and the third-party service providers used to deliver our
+          services, your information may be processed or stored in jurisdictions
+          outside your province, territory, state, or country of residence.
+        </p>
+
+        <p>
+          By using PlateCam, you understand that your information may be
+          transferred to and processed in countries whose privacy laws may
+          differ from those of your home jurisdiction.
+        </p>
 
           <hr className="border-gray-200 my-6" />
 
@@ -163,6 +1093,25 @@ export default function PrivacyPolicy() {
           </ul>
 
           <hr className="border-gray-200 my-6" />
+
+        <h2 className='font-semibold'>Your Privacy Rights</h2>
+
+<p>
+  Subject to applicable law, you may have the right to:
+</p>
+
+<ul>
+  <li>Access personal information we maintain about you.</li>
+  <li>Request correction of inaccurate information.</li>
+  <li>Request deletion of your account and associated information.</li>
+  <li>Withdraw consent where processing is based upon consent.</li>
+  <li>Request additional information regarding our privacy practices.</li>
+</ul>
+
+<p>
+  The availability of these rights may depend on the laws applicable to
+  your jurisdiction.
+</p>
 
           <h2 className="text-xl font-bold text-gray-900 pt-2">VI. Data Breach Notification</h2>
           <p>
@@ -236,45 +1185,41 @@ export default function PrivacyPolicy() {
             The Company reserves the right to change this policy and our Terms of Use at any time. We will notify you of significant changes to our Privacy Policy by sending a notice to the primary email address specified in your account or by placing a prominent notice on our Site. Significant changes will go into effect upon posting and reasonable notice, unless a longer notice period is required by applicable law. Non-material changes or clarifications will take effect immediately. You should periodically check the Site and this privacy page for updates.
           </p>
 
-          <hr className="border-gray-200 my-6" />
+        <p>
+          We may update this Privacy Policy from time to time to reflect changes
+          to our services, technologies, legal requirements, or privacy
+          practices.
+        </p>
 
-          <h2 className="text-xl font-bold text-gray-900 pt-2">XII. Cookies and Browser Storage</h2>
-          <p>
-            We use a small number of first-party cookies and browser storage technologies to operate the Service and improve your experience. We also use the Meta Pixel for advertising measurement, described below. We do not use Google Ads conversion tracking, TikTok Pixel (on the website), LinkedIn Insight Tag, or other third-party retargeting trackers on the Site.
-          </p>
-
-          <h3 className="text-lg font-semibold text-gray-900 mt-4">Strictly Necessary Cookies</h3>
-          <p>These cookies are required for the Service to function and are exempt from consent requirements:</p>
-          <ul className="list-disc pl-6 space-y-1">
-            <li><strong>Authentication cookies</strong> — set by Supabase to keep you signed in across visits.</li>
-            <li><strong>Cookie consent cookie (platecam_cookie_consent)</strong> — records your consent choice itself.</li>
-          </ul>
-
-          <h3 className="text-lg font-semibold text-gray-900 mt-4">Functional Cookies (Consent Required)</h3>
-          <p>These cookies are only set after you accept cookies via the consent banner:</p>
-          <ul className="list-disc pl-6 space-y-1">
-            <li><strong>Plans page A/B variant (plans_default_variant)</strong> — randomly assigns each user a default billing toggle (monthly or annual) on the pricing page so we can measure which default leads to better outcomes. Stores a single value (&quot;monthly&quot; or &quot;annual&quot;); no personal data.</li>
-          </ul>
-
-          <h3 className="text-lg font-semibold text-gray-900 mt-4">Browser Storage (localStorage)</h3>
-          <p>We use browser localStorage to remember interface preferences and dismissals. These do not transmit data to our servers and are functional in nature:</p>
-          <ul className="list-disc pl-6 space-y-1">
-            <li><strong>platecam_cookie_consent</strong> — mirrors your cookie consent choice for client-side checks.</li>
-            <li><strong>platecam_privacy_banner_*</strong> — remembers if you&apos;ve dismissed our privacy update banner.</li>
-            <li><strong>platecam_ios_app_promo_v1_seen</strong> — remembers if you&apos;ve dismissed the iOS app promotion popup.</li>
-            <li><strong>Subscription cache</strong> — caches your subscription status (loaded from your account) for ~5 minutes to reduce API calls.</li>
-          </ul>
-
-          <h3 className="text-lg font-semibold text-gray-900 mt-4">Managing Your Choices</h3>
-          <p>
-            You can change your cookie preferences at any time by clearing your browser&apos;s cookies for this site — the consent banner will reappear on your next visit. You can also manage cookies and clear browser storage through your browser settings. Disabling strictly necessary cookies may prevent the Service from functioning correctly.
-          </p>
+        <p>
+          When we make material changes, we will revise the "Last Updated" date
+          at the top of this page. Where required by applicable law, we may also
+          provide additional notice through the PlateCam application or by other
+          appropriate means.
+        </p>
 
           <hr className="border-gray-200 my-6" />
 
-          <h2 className="text-xl font-bold text-gray-900 pt-2">XIII. Contact Us</h2>
-          <p>
-            If you have any questions regarding this Privacy Policy or the practices of this Site, please contact us at:
+          <h2 className="text-xl font-bold text-gray-900 pt-2">XII. Contact Us</h2>
+
+        <p>
+          If you have questions about this Privacy Policy, would like to
+          exercise your privacy rights, or wish to request additional privacy
+          protections, please contact us:
+        </p>
+
+        <p>
+          <strong>PlateCam Inc.</strong>
+          <br />
+          Email:{" "}
+          <a href="mailto:contact@platecam.com">
+            contact@platecam.com
+          </a>
+        </p>
+
+        <p>
+          We will make reasonable efforts to respond to privacy-related
+          requests in accordance with applicable law.
           </p>
           <div className="bg-gray-50 border border-gray-200 rounded p-4 font-mono text-sm space-y-1">
             <p className="font-semibold text-gray-900 font-sans text-base mb-1">PlateCam Inc.</p>
@@ -285,6 +1230,10 @@ export default function PrivacyPolicy() {
           </div>
 
         </div>
+
+
+
+
       </div>
     </div>
   );

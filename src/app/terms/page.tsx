@@ -28,7 +28,7 @@ export default function TermsPage() {
           </h1>
           <div className="text-sm text-slate-500">
             <p>Version 1.1</p>
-            <p>Last revised on: March 30, 2026</p>
+            <p>Last revised on: July 11, 2026</p>
           </div>
         </header>
 
@@ -41,7 +41,7 @@ export default function TermsPage() {
               https://www.platecam.com/
             </a>{' '}
             (the &quot;Site&quot;) and the PlateCam mobile application available on the Apple App Store 
-            (the &quot;App&quot;) are copyrighted works belonging to PlateCam, LLC (&quot;Company&quot;, 
+            (the &quot;App&quot;) are copyrighted works belonging to PlateCam, Inc. (&quot;Company&quot;, 
             &quot;us&quot;, &quot;our&quot;, and &quot;we&quot;). References to the &quot;Site&quot; throughout 
             these Terms shall include both the website and the App unless otherwise specified. Certain 
             features of the Site may be subject to additional guidelines, terms, or rules, which will be 
@@ -149,9 +149,7 @@ export default function TermsPage() {
               </p>
               <p>
                 <span className="font-semibold text-slate-900">(g) Payment Processing.</span> All payment processing is 
-                handled by our third-party payment processor, Stripe, Inc. (&quot;Stripe&quot;). By providing your 
-                payment information, you agree to Stripe&apos;s terms of service and privacy policy. Company does not 
-                store your credit card number or full payment method details on its servers.
+                handled by the device's related app store. 
               </p>
             </div>
           </section>
@@ -723,7 +721,7 @@ export default function TermsPage() {
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-slate-900">10.7 Copyright/Trademark Information</h2>
             <p>
-              Copyright © 2026 PlateCam, LLC. All rights reserved. All trademarks, logos and service marks (&quot;Marks&quot;) 
+              Copyright © 2026 PlateCam Inc. All rights reserved. All trademarks, logos and service marks (&quot;Marks&quot;) 
               displayed on the Site are our property or the property of other third parties. You are not permitted to use these 
               Marks without our prior written consent or the consent of such third party which may own the Marks.
             </p>
@@ -735,7 +733,8 @@ export default function TermsPage() {
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-slate-900">10.8 Contact Information</h2>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 space-y-1 text-sm font-medium text-slate-800">
-              <p className="font-bold text-base text-slate-900 mb-2">Ajiri O.</p>
+            <p className="font-bold text-base text-slate-900 mb-2">Ajiri O.</p>
+              <p className="font-bold text-base text-slate-900 mb-2">PlateCam Inc.</p>
               <p>122 Livingston Dr</p>
               <p>Tillsonburg, ON, Canada</p>
               <p>Telephone: 4312785156</p>
@@ -754,9 +753,9 @@ export default function TermsPage() {
             <h2 className="text-2xl font-bold text-slate-900">10.9 Governing Law</h2>
             <p>
               These Terms and any dispute arising out of or related to these Terms or the Site shall be governed by and 
-              construed in accordance with the laws of the State of California, without regard to its conflict of law provisions. 
+              construed in accordance with the laws of Canada, without regard to its conflict of law provisions. 
               Subject to the Arbitration Agreement in Section 10.2, any legal action or proceeding arising under these Terms shall 
-              be brought exclusively in the federal or state courts located in San Diego County, California, and the parties 
+              be brought exclusively in the federal or provincial courts of Ontario, Canada, and the parties 
               irrevocably consent to the personal jurisdiction and venue therein.
             </p>
           </section>
